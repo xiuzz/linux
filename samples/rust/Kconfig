@@ -30,6 +30,16 @@ config SAMPLE_RUST_PRINT
 
 	  If unsure, say N.
 
+config SAMPLE_RUST_HELLOWORLD
+  tristate "Print Hello World in Rust"
+  help
+    This option builds the Rust HelloWorld module sample.
+      
+    To compile this as a module, choose M here:
+    the module will be called rust_helloworld.
+      
+    If unsure, say N.
+
 config SAMPLE_RUST_HOSTPROGS
 	bool "Host programs"
 	help
